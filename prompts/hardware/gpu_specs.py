@@ -170,21 +170,7 @@ GPU_SPEC_INFO = {
         "LDS size per CU": "64KB",
         "Note": "Use HIP (ROCm) for programming, not CUDA",
     },
-    "AMD MI250X": {
-        "GPU Architecture": "CDNA2 (gfx90a)",
-        "GPU Memory": "128GB HBM2e",
-        "Memory Bandwidth": "3.2 TB/s",
-        "FP32 TFLOPS": "47.9",
-        "FP16 TFLOPS": "191.5 (bf16)",
-        "INT8 TFLOPS": "382.9 (int8)",
-        "Tensor Core": "Yes (Matrix Core)",
-        "Compute Units": "220",
-        "SIMD per CU": "32",
-        "Wavefront Size": "32",
-        "Maximum registers per thread": "256",
-        "L2 Cache": "8MB",
-        "Note": "Use HIP (ROCm) for programming, not CUDA",
-    },
+
     "AMD MI355X": {
         "GPU Architecture": "CDNA3 (gfx942)",
         "GPU Memory": "256GB HBM3",
